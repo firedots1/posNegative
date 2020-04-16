@@ -5,13 +5,13 @@ public class posNegative {
     {
         int num;
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the number you want to check:");
+        System.out.print("Enter the number you want to check: ");
         num = input.nextInt();
-        if(num >= 35)
+        if(num > 0)
         {
             System.out.println(num + " " + "is positive ");
         }
-        else if(num <= 35)
+        else if(num < 0)
         {
             System.out.println(num + " " + "is negative ");
         }
